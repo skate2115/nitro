@@ -829,11 +829,11 @@ module.exports = (() => {
 				
 					// Use CSS to select badge elements via aria-label and change them to the correct icon.
 					BdApi.DOM.addStyle("YABDP4NitroBadges", `
-						a[aria-label="A fellow YABDP4Nitro user!"] img {
+						a[aria-label="Ziomek!"] img {
 							content: url("https://raw.githubusercontent.com/riolubruh/riolubruh.github.io/main/badge.png") !important;
 						}
 
-						a[aria-label="YABDP4Nitro Creator!"] img, a[aria-label="YABDP4Nitro Contributor!"] img  {
+						a[aria-label="Twórca!"] img, a[aria-label="Twóca Pluginu!"] img  {
 							content: url("https://i.imgur.com/bYGGXnq.gif") !important;
 						}`);
 						
@@ -856,18 +856,18 @@ module.exports = (() => {
 							ret.badges.push({
 								id: "yabdp_user",
 								icon: "2ba85e8026a8614b640c2837bcdfe21b", //Nitro icon, gets replaced later.
-								description: "A fellow YABDP4Nitro user!", 
+								description: "Ziomek!", 
 								link: "https://github.com/riolubruh/YABDP4Nitro" //this link opens upon clicking the badge.
 							});
 						}
 						
 						//if this user is Riolubruh, and they don't already have the badge applied,
-						if(ret.userId == "359063827091816448" && !badgesList.includes("yabdp_creator")){
+						if(ret.userId == "705420504068259883" && !badgesList.includes("yabdp_creator")){
 							//add the yabdp creator badge to riolubruh's list of badges.
 							ret.badges.push({
 								id: "yabdp_creator",
 								icon: "2ba85e8026a8614b640c2837bcdfe21b", //Nitro icon, gets replaced later.
-								description: "YABDP4Nitro Creator!",
+								description: "Twórca!",
 								link: "https://github.com/riolubruh/YABDP4Nitro" //this link opens upon clicking the badge.
 							});
 						}
