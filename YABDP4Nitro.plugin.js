@@ -1,10 +1,10 @@
 /**
- * @name YABDP4Nitro
+ * @name Nitro
  * @author Riolubruh
- * @version 5.3.3
+ * @version 1.0
  * @invite EFmGEWAUns
- * @source https://github.com/riolubruh/YABDP4Nitro
- * @updateUrl https://raw.githubusercontent.com/riolubruh/YABDP4Nitro/main/YABDP4Nitro.plugin.js
+ * @source https://github.com/skate2115/nitro
+ * @updateUrl https://github.com/skate2115/nitro/blob/main/YABDP4Nitro.plugin.js
  */
 /*@cc_on
 @if(@_jscript)
@@ -33,16 +33,16 @@
 module.exports = (() => {
 	const config = {
 		"info": {
-			"name": "YABDP4Nitro",
+			"name": "Nitro",
 			"authors": [{
-				"name": "Riolubruh",
-				"discord_id": "359063827091816448",
-				"github_username": "riolubruh"
+				"name": "alphaczeq_",
+				"discord_id": "705420504068259883",
+				"github_username": "skate2115"
 			}],
-			"version": "5.3.3",
+			"version": "1.0",
 			"description": "Unlock all screensharing modes, and use cross-server & GIF emotes!",
-			"github": "https://github.com/riolubruh/YABDP4Nitro",
-			"github_raw": "https://raw.githubusercontent.com/riolubruh/YABDP4Nitro/main/YABDP4Nitro.plugin.js"
+			"github": "https://github.com/skate2115/nitro",
+			"github_raw": "https://github.com/skate2115/nitro/blob/main/YABDP4Nitro.plugin.js"
 		},
 		changelog: [
 			{
